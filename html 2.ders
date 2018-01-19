@@ -1,0 +1,47 @@
+ikinci ders olarak, htmlde benimde şimdi gördüğüm bazı başlıklar (taglar)  var bunlar:
+<!DOCTYPE html> . başlangıç olarak kullanılıyor ve bize html olduğunu gösteriyor.
+<html> HTML etiketleri genellikle başlama ve bitiş etiketleri olmak üzere kullanılır.  bir sonra ki satıra geçmek için olanları da var tabiiki.
+<body>etiketler arasında kalan her şeydir.
+<p>paragraf ekliyoruz.
+<title>: bu arkadaş başlık eklememize yarıyor
+</body>
+</html>
+<hr/>:ile çizgi çizeceğiz. bunu kapatmamıza gerek yok kendinden kapalı bu arkadaş.
+
+Bir html tagı “<” ile açılır ve “/>” ile kapatılır.  aşşağıda gördüklerimizi kapatırken kullanacağız.
+
+</body>
+</html>
+burada asıl bilinmesi gereken kısım: tag açıldığı zaman, onun kapanması gerektiğidir. kapanması gerekmeyen bazı taglar olsa bile, zaman geldikçe onları da göreceğiz.
+
+kodları daha kolay bir şekilde görebilmek çin: example.com sitesinde sağ tıklayarak, kaynağı görüntüle denilip, yukarıda bahsettiğimiz sistemlerin nasıl göründüğü hakkında kısaca bilgi edinebiliriz.
+--------------------------------------------------
+h tagları: h1'den h6 ya kadar gitmektedir. burada asıl amaç başlıklar ya da büyük, küçük olarak başlık olarak düşünebiliriz.
+
+h1 tagı sitenin başlığı yani en tepede her sayfada yer alan başlık.
+h2 konunun başlığı (Eğer anasayfada ise her konunun başlığı)
+h3-biraz daha h2 ye nazaran orta boylu olduğunu varsayarsak,
+h4-h5... konu içindeki ara başlıklar oluyor.
+
+kodlar ise: 
+
+<!doctype html>
+<html>
+<head>
+    <title>benim sayfam</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+</head>
+	<body>
+	Hey Puiv!
+	<h1> Merhaba, nasılsın sayın yazar? </h1>
+	<h3> Uzun zamandır yoksun buralarda... </h3>
+	<h4> Ben buradayım </h4>
+	<h5> Haydi, sen de dene! </h5>
+	<hr/>
+</body>
+
+</html>
